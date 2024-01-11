@@ -1,0 +1,114 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 170px;
+}
+
+.alura-latam-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+body>img {
+    margin: 0 10px;
+}
+
+img {
+    max-height: 350px;
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------*/
+/* CSS Agregado */
+form {
+    padding: 10px;
+    /* Reduced padding */
+    border: 1px solid #3d3d3d;
+    border-radius: 5px;
+    background-color: #3a3a3a;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #cdcdcd;
+}
+
+
+input,
+button,
+.Gcruz {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #3d3d3d;
+    background-color: #dcd9d9;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+select {
+    width: 85%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #3d3d3d;
+    background-color: #dcd9d9;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button,
+.Gcruz {
+    margin: 20px;
+    background-color: #a40019;
+    color: #dcd9d9;
+    cursor: pointer;
+}
+
+/* Container respuesta */
+.Respuesta {
+    padding: 30px;
+    border: 1px solid #3d3d3d;
+    border-radius: 5px;
+    background-color: #3a3a3a;
+    max-width: 370px;
+    font-size: 18px;
+    margin: 0 auto;
+    color: #dcd9d9;
+}
+
+/*----------------------------------------------------------------------------------------------------*/

@@ -1,0 +1,130 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background-aluraflix.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 170px;
+}
+
+.alura-latam-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+body>img {
+    margin: 0 10px;
+}
+
+img {
+    max-height: 250px;
+}
+
+
+/*----------------------------------------------------------------------------------------------------*/
+/* CSS Agregado */
+form {
+    padding: 10px;
+    /* Reduced padding */
+    border: 1px solid #3d3d3d;
+    border-radius: 5px;
+    background-color: #3a3a3a;
+    /* max-width: 400px; */
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #cdcdcd;
+}
+
+
+input,
+button,
+.Gcruz {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #3d3d3d;
+    background-color: #dcd9d9;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+select {
+    width: 85%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #3d3d3d;
+    background-color: #dcd9d9;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button,
+.Gcruz {
+    margin: 20px;
+    background-color: #a40019;
+    color: #dcd9d9;
+    cursor: pointer;
+}
+
+#frutas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Ajusta esto según tu preferencia */
+}
+
+.card {
+    width: calc(33.33% - 20px);
+    /* Ajusta el ancho de las tarjetas */
+    border: 1px solid #3d3d3d;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    /* Margen vertical entre las tarjetas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 200px;
+}
+
+.p {
+    color: white;
+}
+
+.imagen {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/*----------------------------------------------------------------------------------------------------*/

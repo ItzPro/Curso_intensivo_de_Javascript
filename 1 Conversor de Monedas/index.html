@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Conversor de monedas</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="URL_de_la_imagen" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de monedas y temperaturas
+        </h1>
+        <img src="https://user-images.githubusercontent.com/121910576/257302088-d2a9edb6-75e5-4118-aaba-6f53da7715dc.png"
+            class="page-logo" alt="">
+    </div>
+
+    <!-- Jala mucho espacio -->
+    <!-- <a href="https://www.aluracursos.com/" target="_blank">
+        <img src="https://www.aluracursos.com/assets/img/home/alura-logo.1686744883.svg" alt=""
+            class="alura-latam-logo">
+        <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png">
+    </a> -->
+
+    <div class="container">
+        <div class="row">
+            <!-- --Monedas---------------------------------------------------------------------------------------- -->
+            <div class="col-lg-6">
+                <form>
+                    <label for="amount-input">Ingrese su nombre:</label>
+                    <input type="text" id="Name" placeholder="Nombre">
+
+                    <label for="currency-listbox">Seleccione la Moneda:</label>
+                    <select id="currency-listbox">
+                        <option value="usd">Dolar Estadounidense (USD)</option>
+                        <option value="eur">Euro (EUR)</option>
+                        <option value="gbp">Libra esterlina (GBP)</option>
+                        <!-- Aqui Agregar mas monedas -->
+                    </select>
+
+                    <label for="amount-input">Ingrese el monto:</label>
+                    <input type="text" id="amount-input" placeholder="Monto">
+
+                    <label for="conversion-type">Seleccione la moneda a la moneda que desea convertir:</label>
+                    <select id="conversion-type">
+                        <option value="to-lempira">Lempira (L)</option>
+                        <!-- <option value="to-usd">Convert to USD</option> -->
+                        <!-- Agregar mas conversiones finales -->
+                    </select>
+
+                    <button class="Gcruz" type="submit">Convertir</button>
+                </form>
+
+                <div class="Respuesta" id="result-container"></div>
+            </div>
+            <!-- --Temperatura---------------------------------------------------------------------------------------- -->
+
+            <div class="col-lg-6">
+                <form class="temperatura">
+                    <label for="temperature-input">Ingrese la temperatura:</label>
+                    <input type="text" id="temperature-input" placeholder="Temperatura">
+
+                    <label for="from-scale">Escala de temperatura original:</label>
+                    <select id="from-scale">
+                        <option value="celsius">Celsius (°C)</option>
+                        <option value="fahrenheit">Fahrenheit (°F)</option>
+                        <option value="kelvin">Kelvin (K)</option>
+                    </select>
+
+                    <label for="to-scale">Escala de temperatura a convertir:</label>
+                    <select id="to-scale">
+                        <option value="celsius">Celsius (°C)</option>
+                        <option value="fahrenheit">Fahrenheit (°F)</option>
+                        <option value="kelvin">Kelvin (K)</option>
+                    </select>
+
+                    <button class="Gcruz" type="button" onclick="convertirTemperatura()">Convertir</button>
+                </form>
+
+                <div class="Respuesta" id="result-container-temperature"></div>
+            </div>
+
+
+            <!-- ------------------------------------------------------------------------------------------ -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
